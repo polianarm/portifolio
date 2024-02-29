@@ -1,0 +1,27 @@
+.section {
+    background-color: rgba(10, 10, 10, 0.268);
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+  
+  .titleSection {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start; 
+    color: #202020; 
+  }
+  
+
+  
+  .sectionCard {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
