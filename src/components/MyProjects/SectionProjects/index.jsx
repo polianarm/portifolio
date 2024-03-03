@@ -1,11 +1,12 @@
 import CardProjects from '../CardProjects'
 import styles from './SectionProjects.module.css'
 
+
 export default function SectionProjects() {
 
 
     return (
-        <section id="projects" className={styles.section}>
+        <section id="projects" className={styles.SectionProjects}>
          
     
           <div >
