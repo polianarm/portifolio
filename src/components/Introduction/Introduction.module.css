@@ -1,0 +1,39 @@
+.sectionIntroduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10vh;
+  padding: 10vh;
+}
+
+.perfil {
+  grid-column: 1;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfil img {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 2px 8px rgba(43, 37, 37, 0.497);
+  border-radius: 180px;
+}
+
+.hello {
+  grid-column: 2;
+  display: grid;
+  grid-gap: 10px;
+  /* background-color: chocolate; */
+}
+
+.links {
+  color: #202020;
+  display: flex;
+  gap: 10px;
+}
