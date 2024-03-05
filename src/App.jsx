@@ -3,7 +3,7 @@ import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Introduction from './components/Introduction'
-import SectionProjects from './components/MyProjects/SectionProjects'
+import MyProjects from './components/MyProjects'
 import Skills from './components/Skills'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Introduction />
         <AboutMe />
         <Skills />
-        <SectionProjects />
+        <MyProjects />
       <Footer />  
      
     </>

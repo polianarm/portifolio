@@ -1,0 +1,34 @@
+.sectionSkills {
+
+padding: 1rem 0rem;
+background-color: rgb(54, 54, 54);
+
+}
+
+.sectionSkills h2 {
+margin: 1rem 2rem;
+font-size: 2rem;
+font-weight: bolder;
+color: #ffff;
+
+
+}
+
+.skills {
+
+margin: 2rem 2rem;
+font-size: 2rem;
+font-weight: bolder;
+color: #ffff;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 2rem;
+}
+
+.skills svg {
+
+/* padding: 1rem; */
+background-color: rgba(41, 41, 41, 0.195);
+
+}

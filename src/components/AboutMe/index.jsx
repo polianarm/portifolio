@@ -5,9 +5,11 @@ export default function AboutMe() {
 
 return (
 
-<section>
+<section id="aboutMe" className={styles.sectionAboutMe}>
 
-<h2>Aqui eu finjo que sei quem sou!</h2>
+<h2>Sobre mim</h2>
+
+<h3>Olá, me chamo Poliana, estou estudando desenvolvimento e busco colaborar em projetos.</h3>
 
 
 </section>

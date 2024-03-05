@@ -1,0 +1,16 @@
+.sectionAboutMe {
+  background-color: rgba(0, 0, 0, 0.563);
+  padding: 2rem 0rem;
+}
+
+.sectionAboutMe h2 {
+  margin: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #ffff;
+}
+
+.sectionAboutMe h3 {
+  margin: 1rem 2rem;
+  padding-top: 1rem;
+}
