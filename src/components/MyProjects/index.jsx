@@ -2,49 +2,33 @@ import styles from './MyProjects.module.css';
 import projects from '../../data/projects.json'
 
 export default function MyProjects() {
-
-
-return (
-<section id="projects" className={styles.sectionMyProjects}>  
-    
-    <h2 className={styles.titleSection}>Meus projetos</h2>
-  
-  <div className={styles.cardContainer}>
+  return (
+    <section id="projects" className={styles.sectionMyProjects}>  
       
-      <div className={styles.card}>
-        <h2>Nome do Projeto</h2>
-      <div className={styles.cardElements}>
-           {/* {projects.map(item => (
+      <div className={styles.cardContainer}>
 
-            
+      <h2 className={styles.titleSection}>Meus projetos</h2>
 
+            <div className={styles.cardProjects}>
+            {projects.map(item => ( 
+              <div key={item.id} className={styles.infoProjects}> 
 
-           ))}  */}
+                <img className={styles.imagem} src={item.image} alt={item.name} /> 
+              
+                 <h2> {item.name} </h2>
+                 <p> {item.description}</p> 
+                
+                <div className={styles.buttonsCard}>
+                  <a href={item.urlSite} target="_blank" rel="noopener noreferrer"> Ver Projeto</a>
+                  <a href={item.urlGitHub} target="_blank" rel="noopener noreferrer"> Repositório </a>
+                </div> 
+              
+              </div>
+            ))} 
+          </div>
 
-            <img className={styles.imagem} src="https://images.pexels.com/photos/704767/pexels-photo-704767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""></img>
-          <div className={styles.cardInfo}>
-            <p>
-              Projeto: <span>link</span>
-            </p>
-            <p>
-              Repositório: <span>link</span>
-            </p>
-            <p>
-              Descrição: <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, a?</span>
-            </p>
-          </div> 
         </div>
-      </div>
-    </div>
+    </section>
   );
-
-</section>
-
-
-
-)
-
-    
 }
-
 
