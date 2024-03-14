@@ -1,7 +1,8 @@
 .sectionMyProjects {
   display: flex;
-  background-color: #20202079;
-  min-height: 100vh;  
+  background-color: rgba(0, 0, 0, 0.837);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.293);
+  padding-bottom: 2rem;
 }
 
 .cardContainer {
@@ -10,16 +11,15 @@
   flex-direction: column;
   /* flex-wrap: wrap; */
   gap: 1.6rem;
-  background-color: rgba(0, 0, 0, 0.821);
-  /* padding: 1.4rem; */
-  padding: 0px 60px;
+  /* padding: 0px 60px; */
 }
 
 .titleSection {
-  padding: 1rem 2rem;
+  margin: 2rem 2rem 1rem;
   font-size: 2rem;
   font-weight: bolder;
   color: #ffff;
+  font-family: "Poiret One", sans-serif;
 }
 
 .cardProjects {
@@ -28,7 +28,8 @@
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   align-items: center;
   justify-items: center;
-  gap: 40px;
+  gap: 4.6rem;
+  padding: 0px 80px; 
 }
 
 .cardProjects  h2 {
@@ -47,16 +48,16 @@
   flex-wrap: wrap; 
   align-items: center;
   justify-content: center;
-  background-color: rgb(60, 60, 60);
+  background-color: rgb(50, 50, 50);
   gap: 1rem;
   margin: 0.4rem;
   padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.296);
 }
 
 .infoProjects img {
-  width: 19rem;
-  height: 12rem;
+  width: 21rem;
+  height: 13rem;
   object-fit: cover;
   object-position: center;
   box-shadow: 0 2px 8px rgba(43, 37, 37, 0.497);
@@ -64,14 +65,17 @@
 
 .infoProjects h2 {
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #ffff;
+  font-family: "Poiret One", sans-serif;
 }
 
 .infoProjects p {
   font-weight: 400;
   font-size: 1rem;
   color: #ffff;
+  text-align: justify;
+  margin: 0.5rem;
 }
 
 .buttonsCard {
@@ -91,7 +95,8 @@ background-color: #0f0f0f;
 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombreamento discreto */
 color: #fbf7f7; /* Cor do texto */
 text-align: center;
-
+font-family: "Poiret One", sans-serif;
+font-size: 1.2rem;
 /* Transições suaves */
 transition: background-color 0.3s, box-shadow 0.3s;
 }

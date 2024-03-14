@@ -4,21 +4,22 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10vh;
+  /* margin-bottom: 10vh; */
   padding: 10vh;
+  background-color: rgba(0, 0, 0, 0.837);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.293);
 }
 
 .perfil {
   grid-column: 1;
-  /* background-color: aqua; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .perfil img {
-  width: 12rem;
-  height: 12rem;
+  width: 14rem;
+  height: 14rem;
   object-fit: cover;
   object-position: center;
   box-shadow: 0 2px 8px rgba(43, 37, 37, 0.497);
@@ -29,11 +30,13 @@
   grid-column: 2;
   display: grid;
   grid-gap: 10px;
-  /* background-color: chocolate; */
+  color: #ffff;
+  font-family: "Poiret One", sans-serif;
+  font-size: 1.4rem;
 }
 
 .links {
-  color: #202020;
+  color: #ffff;
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }

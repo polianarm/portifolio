@@ -28,15 +28,6 @@
     },
     {
         "id": 4,
-        "name": "Frutas da Estação",
-        "description": "Um projeto utilizando React, CSS e Html, com o objetivo de experimentar filtros diversos",
-        "image": "/projectsImg/frutas-da-estacao.png",
-        "urlSite": "",
-        "urlGitHub": ""
-
-    },
-    {
-        "id": 5,
         "name": "Menu Brasil",
         "description": "Um projeto utilizando React, CSS e Html, com o objetivo de experimentar filtros diversos",
         "image": "/projectsImg/menu-brasil.png",
@@ -44,4 +35,5 @@
         "urlGitHub": "https://github.com/polianarm/menu-brasil-receitas"
 
     }
+
 ]

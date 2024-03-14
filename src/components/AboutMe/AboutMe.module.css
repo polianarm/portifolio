@@ -1,6 +1,7 @@
 .sectionAboutMe {
-  background-color: rgba(0, 0, 0, 0.563);
   padding: 2rem 0rem;
+  background-color: rgba(0, 0, 0, 0.837);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.293);
 }
 
 .sectionAboutMe h2 {
@@ -8,9 +9,13 @@
   font-size: 2rem;
   font-weight: bolder;
   color: #ffff;
+  font-family: "Poiret One", sans-serif;
 }
 
 .sectionAboutMe h3 {
   margin: 1rem 2rem;
   padding-top: 1rem;
+  color: #ffff;
+  font-family: "Poiret One", sans-serif;
+  font-size: 1.4rem;
 }

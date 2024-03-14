@@ -11,7 +11,7 @@ export default function Introduction() {
         </div>
   
         <div className={styles.hello}>
-          <h2>Olá, mundo! Meu nome é Poliana!</h2>
+          <h2>Olá, mundo! Meu nome é Poliana.</h2>
           <h3>Me interesso por muitas coisas</h3>
   
           <div className={styles.links}>
