@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "name": "Ficky and Morty",
+        "name": "Ricky and Morty",
         "description": "Um projeto utilizando React, CSS e Html, com o objetivo de experimentar filtros diversos",
         "image": "/projectsImg/rick-and-morty.png",
         "urlSite": "https://ricky-and-morty-five.vercel.app/",
